@@ -1,0 +1,1 @@
+docker build -t nginx . && docker run --rm --name nginxstatic -p 8080:8080 nginx
